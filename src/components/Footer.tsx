@@ -15,7 +15,7 @@ export default function Footer() {
         <div className="grid gap-9 border-b border-white/10 py-10 sm:grid-cols-2 lg:grid-cols-[1.35fr_.65fr_.75fr_.9fr] lg:gap-10 lg:py-12">
           <div>
             <div className="text-white"><BrandMark /></div>
-            <p className="mt-4 max-w-xs text-xs leading-5 text-white/45">Telefon, aksesuar ve teknik servis ihtiyaçlarınız için hızlı, dürüst ve güvenilir çözüm noktası.</p>
+            <p className="mt-4 max-w-xs text-xs leading-5 text-white/45">Türkiye&apos;nin 81 ilinde telefon, aksesuar ve teknik servis ihtiyaçlarınız için hızlı, dürüst ve güvenilir çözüm noktası.</p>
           </div>
           <div>
             <h3 className="text-[10px] font-black uppercase tracking-[.2em] text-[var(--taxi-yellow)]">Menü</h3>
@@ -23,7 +23,7 @@ export default function Footer() {
           </div>
           <div>
             <h3 className="text-[10px] font-black uppercase tracking-[.2em] text-[var(--taxi-yellow)]">Hizmetler</h3>
-            <div className="mt-4 grid gap-2 text-xs text-white/55"><span>Ekran Değişimi</span><span>Batarya Değişimi</span><span>Yazılım Desteği</span></div>
+            <div className="mt-4 grid gap-2 text-xs text-white/55"><span>30 Dakikada Ekran Değişimi</span><span>30 Dakikada Batarya Değişimi</span><span>81 İle Hizmet</span></div>
           </div>
           <div>
             <h3 className="text-[10px] font-black uppercase tracking-[.2em] text-[var(--taxi-yellow)]">İletişim</h3>
@@ -37,7 +37,7 @@ export default function Footer() {
         </div>
         <div className="flex flex-col gap-2 py-4 text-[10px] text-white/35 sm:flex-row sm:items-center sm:justify-between">
           <p>© 2026 Enes Teknoloji. Tüm hakları saklıdır.</p>
-          <p>Telefon • Aksesuar • Teknik Servis</p>
+          <p>Create by Alceix Yasin</p>
         </div>
       </div>
     </footer>

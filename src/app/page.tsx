@@ -8,8 +8,8 @@ import HomeGallery from '@/components/HomeGallery';
 import HomeBlog from '@/components/HomeBlog';
 
 const services = [
-  { icon: FiSmartphone, title: 'Ekran değişimi', text: 'Kırık ekran, görüntü ve dokunmatik sorunları' },
-  { icon: FiBatteryCharging, title: 'Batarya & şarj', text: 'Batarya, şarj soketi ve enerji sorunları' },
+  { icon: FiSmartphone, title: '30 dakikada ekran değişimi', text: 'Kırık ekran, görüntü ve dokunmatik sorunlarına hızlı çözüm' },
+  { icon: FiBatteryCharging, title: '30 dakikada batarya değişimi', text: 'Hızlı tükenme, ani kapanma ve batarya sorunlarına hızlı çözüm' },
   { icon: FiRefreshCw, title: 'Yazılım desteği', text: 'Kurulum, veri aktarımı ve sistem çözümleri' },
 ];
 
@@ -30,7 +30,7 @@ export default function Home() {
         <div className="relative mx-auto flex min-h-[684px] max-w-[1440px] items-center px-5 pb-24 sm:px-8 lg:min-h-[744px] lg:px-12 lg:pb-28">
           <div className="relative z-10">
             <div className="mb-7 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-[11px] font-black uppercase tracking-[.2em] backdrop-blur-sm">
-              <span className="h-2 w-2 rounded-full bg-[var(--taxi-yellow)]" /> Telefon • Aksesuar • Teknik Servis
+              <span className="h-2 w-2 rounded-full bg-[var(--taxi-yellow)]" /> Türkiye&apos;nin 81 iline hizmet
             </div>
             <h1 className="max-w-3xl text-[54px] font-black leading-[.91] tracking-[-.065em] sm:text-[72px] lg:text-[92px]">Teknoloji<br />bizim <span className="outline-word-light">işimiz.</span></h1>
             <p className="mt-8 max-w-xl text-base font-medium leading-7 text-white/65 sm:text-lg">Telefonunuz için güvenilir teknik servis, doğru yönlendirme ve hızlı çözüm tek adreste.</p>
@@ -40,13 +40,13 @@ export default function Home() {
             </div>
             <div className="mt-12 flex flex-wrap gap-x-8 gap-y-4 text-xs font-bold text-white/60">
               <span className="flex items-center gap-2"><FiShield className="h-4 w-4" /> Garantili işlem</span>
-              <span className="flex items-center gap-2"><FiClock className="h-4 w-4" /> Hızlı teslimat</span>
+              <span className="flex items-center gap-2"><FiClock className="h-4 w-4" /> 30 dakikada ekran ve batarya değişimi</span>
               <span className="flex items-center gap-2"><FiCheck className="h-4 w-4" /> Uzman destek</span>
             </div>
           </div>
         </div>
         <div className="absolute inset-x-0 bottom-0 overflow-hidden bg-[var(--ink)] py-4 text-[var(--taxi-yellow)]">
-          <div className="marquee-track flex min-w-max items-center gap-10 text-xs font-black uppercase tracking-[.22em]">{[1,2].map(row => <div key={row} className="flex items-center gap-10">Teknik Servis <span>✦</span> Ekran Değişimi <span>✦</span> Batarya Değişimi <span>✦</span> Yazılım Desteği <span>✦</span> Hızlı Çözüm <span>✦</span></div>)}</div>
+          <div className="marquee-track flex min-w-max items-center gap-10 text-xs font-black uppercase tracking-[.22em]">{[1,2].map(row => <div key={row} className="flex items-center gap-10">81 İle Hizmet <span>✦</span> 30 Dakikada Ekran Değişimi <span>✦</span> 30 Dakikada Batarya Değişimi <span>✦</span> Teknik Servis <span>✦</span></div>)}</div>
         </div>
       </section>
 
@@ -113,9 +113,9 @@ export default function Home() {
           <div className="relative min-h-[420px] lg:min-h-[620px]"><Image src="/brand/enes-teknoloji-hero.webp" alt="Enes Teknoloji mağazası" fill className="object-cover object-right" sizes="(max-width:1024px) 100vw, 55vw" /><div className="absolute inset-0 bg-[linear-gradient(90deg,transparent_55%,rgba(230,185,31,.5))]" /></div>
           <div className="flex flex-col justify-center p-8 sm:p-12 lg:p-16">
             <p className="section-tag">Enes Teknoloji</p>
-            <h2 className="mt-5 text-3xl font-black leading-[1.01] tracking-[-.055em] sm:text-5xl">Mahallenizin teknoloji uzmanı.</h2>
-            <p className="mt-7 text-base font-medium leading-8 text-black/55">Telefonunuz arızalandığında ulaşabileceğiniz, süreci açıkça anlatan ve satıştan sonra da yanında duran bir teknoloji mağazası.</p>
-            <div className="mt-9 grid gap-4 sm:grid-cols-2">{['Şeffaf fiyat bilgisi','Kaliteli yedek parça','İşlem sonrası destek','Hızlı arıza tespiti'].map(item => <span key={item} className="flex items-center gap-3 text-sm font-black"><span className="flex h-7 w-7 items-center justify-center rounded-full bg-black text-[var(--taxi-yellow)]"><FiCheck /></span>{item}</span>)}</div>
+            <h2 className="mt-5 text-3xl font-black leading-[1.01] tracking-[-.055em] sm:text-5xl">Türkiye&apos;nin 81 ilinde teknoloji çözüm ortağınız.</h2>
+            <p className="mt-7 text-base font-medium leading-8 text-black/55">Nerede olursanız olun, cihazınız için hızlı ve güvenilir teknik servis desteği sunuyor; süreci açıkça anlatarak satış sonrasında da yanınızda duruyoruz.</p>
+            <div className="mt-9 grid gap-4 sm:grid-cols-2">{['30 dakikada ekran değişimi','30 dakikada batarya değişimi','81 ile hizmet','İşlem sonrası destek'].map(item => <span key={item} className="flex items-center gap-3 text-sm font-black"><span className="flex h-7 w-7 items-center justify-center rounded-full bg-black text-[var(--taxi-yellow)]"><FiCheck /></span>{item}</span>)}</div>
             <Link href="/hakkimizda" className="mt-10 inline-flex w-fit items-center gap-3 rounded-xl bg-[var(--ink)] px-6 py-4 text-sm font-black text-white">Bizi daha yakından tanıyın <FiArrowRight /></Link>
           </div>
         </div>

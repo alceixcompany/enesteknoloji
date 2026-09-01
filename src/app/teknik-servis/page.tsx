@@ -4,8 +4,8 @@ import { FiArrowRight, FiBatteryCharging, FiCheck, FiClock, FiDroplet, FiRefresh
 import StorePageHero, { PageCta } from '@/components/StorePageHero';
 
 const repairs = [
-  { icon: FiSmartphone, title: 'Ekran & dokunmatik', text: 'Kırık cam, görüntü kaybı ve dokunmatik problemleri için kontrollü parça değişimi.' },
-  { icon: FiBatteryCharging, title: 'Batarya & şarj', text: 'Hızlı tükenme, ani kapanma, şarj soketi ve enerji aktarımı sorunları.' },
+  { icon: FiSmartphone, title: '30 dakikada ekran değişimi', text: 'Kırık cam, görüntü kaybı ve dokunmatik problemleri için hızlı ve kontrollü parça değişimi.' },
+  { icon: FiBatteryCharging, title: '30 dakikada batarya değişimi', text: 'Hızlı tükenme ve ani kapanma sorunları için hızlı batarya değişimi ve kontrol.' },
   { icon: FiRefreshCw, title: 'Yazılım & kurulum', text: 'Sistem sorunları, veri aktarımı, güncelleme ve cihaz kurulum desteği.' },
   { icon: FiDroplet, title: 'Sıvı teması', text: 'Sıvı teması sonrası gecikmeden kontrollü inceleme ve onarım değerlendirmesi.' },
 ];
@@ -19,11 +19,11 @@ const process = [
 
 export const metadata = {
   title: 'Telefon Teknik Servis',
-  description: 'Cep telefonu ekran, batarya, şarj soketi ve yazılım sorunları için kontrollü arıza tespiti ve güvenilir teknik servis.',
+  description: 'Türkiye’nin 81 iline hizmet veren Enes Teknoloji ile 30 dakikada ekran ve batarya değişimi, kontrollü arıza tespiti ve güvenilir teknik servis.',
   alternates: { canonical: '/teknik-servis' },
   openGraph: {
     title: 'Telefon Teknik Servis | Enes Teknoloji',
-    description: 'Ekran, batarya, şarj ve yazılım sorunları için şeffaf ve kontrollü teknik servis süreci.',
+    description: '81 ile hizmet, 30 dakikada ekran ve batarya değişimi; şeffaf ve kontrollü teknik servis süreci.',
     url: '/teknik-servis',
     images: ['/brand/hero-service.webp'],
   },
@@ -31,7 +31,7 @@ export const metadata = {
 
 export default function ServicePage() {
   return <main className="bg-[var(--paper)] text-[var(--ink)]">
-    <StorePageHero index="01" eyebrow="Teknik Servis" title="Cihazınız, uzman ellerde." description="Arızayı doğru tespit ediyor, seçenekleri açıkça anlatıyor ve onayınızla kontrollü bir servis süreci yürütüyoruz." image="/brand/hero-service.webp" imageAlt="Enes Teknoloji profesyonel telefon teknik servis atölyesi" />
+    <StorePageHero index="01" eyebrow="81 İle Hizmet" title="30 dakikada ekran ve batarya değişimi." description="Türkiye'nin 81 iline hizmet veriyor; arızayı doğru tespit edip seçenekleri açıkça anlatarak onayınızla kontrollü bir servis süreci yürütüyoruz." image="/brand/hero-service.webp" imageAlt="Enes Teknoloji profesyonel telefon teknik servis atölyesi" />
 
     <section className="px-5 py-20 sm:px-8 lg:px-12 lg:py-28"><div className="mx-auto grid max-w-[1440px] gap-14 lg:grid-cols-[.92fr_1.08fr] lg:items-center lg:gap-20">
       <div className="relative pb-10 pr-0 sm:pr-12">
@@ -46,7 +46,7 @@ export default function ServicePage() {
     <section className="bg-[var(--ink)] px-5 py-20 text-white sm:px-8 lg:px-12 lg:py-28"><div className="mx-auto max-w-[1440px]">
       <div className="grid gap-8 lg:grid-cols-[.8fr_1.2fr] lg:items-end"><div><p className="text-[11px] font-black uppercase tracking-[.22em] text-[var(--taxi-yellow)]">Servis süreci</p><h2 className="mt-5 text-3xl font-black tracking-[-.05em] sm:text-5xl">Başından sonuna kontrollü.</h2></div><p className="max-w-xl text-sm leading-7 text-white/45 lg:justify-self-end">Cihazınızın hangi aşamada olduğunu bilirsiniz. İşlem değişirse önce sizi bilgilendiririz.</p></div>
       <div className="relative mt-14 grid gap-4 lg:grid-cols-4 before:absolute before:left-[12%] before:right-[12%] before:top-7 before:hidden before:h-px before:bg-white/15 lg:before:block">{process.map(([no,title,text])=><article key={no} className="relative rounded-[24px] border border-white/10 bg-white/[.035] p-6"><span className="relative z-10 flex h-14 w-14 items-center justify-center rounded-full bg-[var(--taxi-yellow)] text-sm font-black text-black">{no}</span><h3 className="mt-9 text-xl font-black">{title}</h3><p className="mt-3 text-sm leading-7 text-white/42">{text}</p></article>)}</div>
-      <div className="mt-12 grid gap-px overflow-hidden rounded-[22px] bg-white/10 sm:grid-cols-3">{[[FiClock,'Net bilgilendirme','İşlem öncesi süre ve fiyat'],[FiCheck,'Kontrollü teslim','Temel fonksiyon kontrolleri'],[FiTool,'Teknik destek','İşlem sonrası ulaşılabilirlik']].map(([Icon,title,text]) => { const ItemIcon = Icon as typeof FiClock; return <div key={title as string} className="flex items-center gap-4 bg-[#1d1e20] p-5"><ItemIcon className="h-5 w-5 text-[var(--taxi-yellow)]"/><div><b className="block text-sm">{title as string}</b><span className="text-xs text-white/35">{text as string}</span></div></div>})}</div>
+      <div className="mt-12 grid gap-px overflow-hidden rounded-[22px] bg-white/10 sm:grid-cols-3">{[[FiClock,'30 dakikada değişim','Ekran ve batarya işlemleri'],[FiCheck,'Kontrollü teslim','Temel fonksiyon kontrolleri'],[FiTool,'81 ile hizmet','Türkiye genelinde ulaşılabilirlik']].map(([Icon,title,text]) => { const ItemIcon = Icon as typeof FiClock; return <div key={title as string} className="flex items-center gap-4 bg-[#1d1e20] p-5"><ItemIcon className="h-5 w-5 text-[var(--taxi-yellow)]"/><div><b className="block text-sm">{title as string}</b><span className="text-xs text-white/35">{text as string}</span></div></div>})}</div>
     </div></section>
 
     <section className="px-5 py-20 sm:px-8 lg:px-12 lg:py-24"><div className="mx-auto grid max-w-[1440px] gap-10 rounded-[32px] bg-white p-7 sm:p-10 lg:grid-cols-[1fr_auto] lg:items-center"><div><p className="section-tag">Servis notu</p><h2 className="mt-4 text-2xl font-black tracking-[-.04em] sm:text-3xl">Sıvı teması veya ağır darbe varsa cihazı zorlamayın.</h2><p className="mt-3 max-w-3xl text-sm leading-7 text-black/45">Cihazı şarja takmadan ve tekrar açmayı denemeden teknik değerlendirme için getirin.</p></div><Link href="/iletisim" className="inline-flex items-center justify-center gap-3 rounded-xl bg-[var(--ink)] px-7 py-4 text-sm font-black text-white">Bize ulaşın <FiArrowRight/></Link></div></section>

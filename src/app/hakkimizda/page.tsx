@@ -10,7 +10,7 @@ const values = [
 
 export default function AboutPage() {
   return <main className="bg-[var(--paper)] text-[var(--ink)]">
-    <StorePageHero index="02" eyebrow="Hakkımızda" title="Güven, işimizin en önemli parçası." description="Enes Teknoloji; teknik bilgiyi açık iletişim, temiz işçilik ve satış sonrası destekle bir araya getiren yerel teknoloji mağazasıdır." image="/brand/hero-about.webp" imageAlt="Enes Teknoloji modern telefon mağazası ve servis bankosu" />
+    <StorePageHero index="02" eyebrow="Hakkımızda" title="Güven, işimizin en önemli parçası." description="Enes Teknoloji; teknik bilgiyi açık iletişim, temiz işçilik ve satış sonrası destekle bir araya getirerek Türkiye'nin 81 iline hizmet verir." image="/brand/hero-about.webp" imageAlt="Enes Teknoloji modern telefon mağazası ve servis bankosu" />
 
     <section className="px-5 py-20 sm:px-8 lg:px-12 lg:py-28"><div className="mx-auto grid max-w-[1440px] gap-14 lg:grid-cols-[1.05fr_.95fr] lg:items-center lg:gap-20">
       <div className="grid grid-cols-12 gap-4">
@@ -31,7 +31,7 @@ export default function AboutPage() {
     </div></section>
 
     <section className="px-5 py-20 sm:px-8 lg:px-12"><div className="mx-auto max-w-[1440px] overflow-hidden rounded-[30px] border border-black/10 bg-white shadow-[0_18px_50px_rgba(23,24,25,.06)]">
-      <div className="grid gap-6 border-b border-black/10 p-8 sm:p-10 lg:grid-cols-[auto_1fr] lg:items-center lg:gap-9"><span className="flex h-16 w-16 items-center justify-center rounded-2xl bg-[var(--ink)] text-[var(--taxi-yellow)]"><FiUsers className="h-7 w-7"/></span><div><p className="section-tag">Size verdiğimiz söz</p><h2 className="mt-4 text-2xl font-black tracking-[-.04em] sm:text-3xl">Komşuluk kadar yakın, işimiz kadar profesyonel.</h2></div></div>
+      <div className="grid gap-6 border-b border-black/10 p-8 sm:p-10 lg:grid-cols-[auto_1fr] lg:items-center lg:gap-9"><span className="flex h-16 w-16 items-center justify-center rounded-2xl bg-[var(--ink)] text-[var(--taxi-yellow)]"><FiUsers className="h-7 w-7"/></span><div><p className="section-tag">Size verdiğimiz söz</p><h2 className="mt-4 text-2xl font-black tracking-[-.04em] sm:text-3xl">81 ilde yanınızda, her işlemde profesyonel.</h2></div></div>
       <div className="grid divide-y divide-black/10 sm:grid-cols-3 sm:divide-x sm:divide-y-0">{['Sizi dinleyen ekip','Şeffaf bilgilendirme','İşlem sonrası destek'].map((item, index)=><div key={item} className="flex items-center gap-3 px-8 py-6 text-sm font-black"><span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[var(--taxi-yellow)]/20 text-[var(--taxi-deep)]"><FiCheck/></span><span><small className="mb-1 block text-[9px] font-black tracking-[.16em] text-black/30">0{index + 1}</small>{item}</span></div>)}</div>
     </div></section>
     <PageCta title="Tanışmak için mağazamıza bekleriz." text="Ürün veya servis konusunda aklınızdaki soruyu bize iletin; birlikte değerlendirelim." />
