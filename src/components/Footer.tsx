@@ -37,7 +37,7 @@ export default function Footer() {
         </div>
         <div className="flex flex-col gap-2 py-4 text-[10px] text-white/35 sm:flex-row sm:items-center sm:justify-between">
           <p>© 2026 Enes Teknoloji. Tüm hakları saklıdır.</p>
-          <p>Create by Alceix Yazsin</p>
+          <p>Create by Alceix Group Limited</p>
         </div>
       </div>
     </footer>
