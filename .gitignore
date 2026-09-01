@@ -1,0 +1,38 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.*
+
+# Next.js build output
+/.next/
+/out/
+
+# Production builds and test coverage
+/build
+/dist
+/coverage
+
+# Environment files (may contain secrets)
+.env*
+!.env.example
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+firebase-debug.log*
+
+# Firebase and deployment metadata
+/.firebase/
+/.vercel/
+
+# TypeScript generated files
+*.tsbuildinfo
+next-env.d.ts
+
+# Editor and operating-system files
+.DS_Store
+*.pem
+.idea/
+.vscode/
