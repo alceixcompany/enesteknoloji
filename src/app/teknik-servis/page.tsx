@@ -1,13 +1,15 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { FiArrowRight, FiBatteryCharging, FiCheck, FiClock, FiDroplet, FiRefreshCw, FiShield, FiSmartphone, FiTool } from 'react-icons/fi';
+import { FiArrowRight, FiBatteryCharging, FiCheck, FiClock, FiCpu, FiGrid, FiShield, FiSmartphone, FiTool, FiZap } from 'react-icons/fi';
 import StorePageHero, { PageCta } from '@/components/StorePageHero';
 
 const repairs = [
-  { icon: FiSmartphone, title: '30 dakikada ekran değişimi', text: 'Kırık cam, görüntü kaybı ve dokunmatik problemleri için hızlı ve kontrollü parça değişimi.' },
-  { icon: FiBatteryCharging, title: '30 dakikada batarya değişimi', text: 'Hızlı tükenme ve ani kapanma sorunları için hızlı batarya değişimi ve kontrol.' },
-  { icon: FiRefreshCw, title: 'Yazılım & kurulum', text: 'Sistem sorunları, veri aktarımı, güncelleme ve cihaz kurulum desteği.' },
-  { icon: FiDroplet, title: 'Sıvı teması', text: 'Sıvı teması sonrası gecikmeden kontrollü inceleme ve onarım değerlendirmesi.' },
+  { icon: FiSmartphone, title: 'Ekran değişimi', text: 'Kırık ekran, görüntü kaybı ve dokunmatik problemleri için hızlı ve kontrollü parça değişimi.' },
+  { icon: FiZap, title: 'Soket değişimi', text: 'Şarj almama, yavaş şarj ve temassızlık sorunları için kontrollü soket değişimi.' },
+  { icon: FiCpu, title: 'Anakart tamiri', text: 'Anakart kaynaklı açılmama ve işlev sorunları için detaylı arıza tespiti ve onarım.' },
+  { icon: FiBatteryCharging, title: 'Batarya değişimi', text: 'Hızlı tükenme ve ani kapanma sorunları için hızlı batarya değişimi ve kontrol.' },
+  { icon: FiGrid, title: 'Kasa değişimi', text: 'Darbe, eğilme ve deformasyon yaşayan cihazlar için uyumlu kasa değişimi.' },
+  { icon: FiTool, title: 'Ön cam değişimi', text: 'Görüntü ve dokunmatik çalışırken kırılan ön cam için hassas değişim işlemi.' },
 ];
 
 const process = [

@@ -1,7 +1,7 @@
 'use client';
 
 import { usePathname } from 'next/navigation';
-import { FiMessageCircle } from 'react-icons/fi';
+import { FaWhatsapp } from 'react-icons/fa';
 
 export default function FloatingContact() {
   const pathname = usePathname();
@@ -13,10 +13,10 @@ export default function FloatingContact() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="WhatsApp üzerinden iletişime geç"
-      className="fixed bottom-5 right-5 z-40 flex items-center gap-3 rounded-2xl bg-[var(--taxi-yellow)] px-4 py-3 font-black text-[var(--ink)] shadow-[0_16px_45px_rgba(0,0,0,.22)] transition hover:-translate-y-1 hover:bg-white sm:bottom-7 sm:right-7"
+      title="WhatsApp üzerinden iletişime geç"
+      className="fixed bottom-5 right-5 z-40 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-[0_14px_36px_rgba(37,211,102,.38)] transition duration-300 hover:-translate-y-1 hover:scale-105 hover:bg-[#20bd5a] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#25D366]/35 sm:bottom-7 sm:right-7 sm:h-16 sm:w-16"
     >
-      <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-[var(--ink)] text-[var(--taxi-yellow)]"><FiMessageCircle className="h-5 w-5" /></span>
-      <span className="hidden text-xs sm:block">WhatsApp</span>
+      <FaWhatsapp className="h-8 w-8 sm:h-9 sm:w-9" aria-hidden="true" />
     </a>
   );
 }

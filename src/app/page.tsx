@@ -1,16 +1,19 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import {
-  FiArrowRight, FiBatteryCharging, FiCheck, FiClock, FiMessageCircle,
-  FiPhone, FiRefreshCw, FiShield, FiSmartphone, FiTool,
+  FiArrowRight, FiBatteryCharging, FiCheck, FiClock, FiCpu, FiGrid,
+  FiMessageCircle, FiPhone, FiShield, FiSmartphone, FiTool, FiZap,
 } from 'react-icons/fi';
 import HomeGallery from '@/components/HomeGallery';
 import HomeBlog from '@/components/HomeBlog';
 
 const services = [
-  { icon: FiSmartphone, title: '30 dakikada ekran değişimi', text: 'Kırık ekran, görüntü ve dokunmatik sorunlarına hızlı çözüm' },
-  { icon: FiBatteryCharging, title: '30 dakikada batarya değişimi', text: 'Hızlı tükenme, ani kapanma ve batarya sorunlarına hızlı çözüm' },
-  { icon: FiRefreshCw, title: 'Yazılım desteği', text: 'Kurulum, veri aktarımı ve sistem çözümleri' },
+  { icon: FiSmartphone, title: 'Ekran değişimi', text: 'Kırık ekran, görüntü ve dokunmatik sorunlarına hızlı çözüm' },
+  { icon: FiZap, title: 'Soket değişimi', text: 'Şarj almama ve temassızlık sorunları için kontrollü soket değişimi' },
+  { icon: FiCpu, title: 'Anakart tamiri', text: 'Anakart kaynaklı arızalar için detaylı tespit ve profesyonel onarım' },
+  { icon: FiBatteryCharging, title: 'Batarya değişimi', text: 'Hızlı tükenme, ani kapanma ve batarya sorunlarına hızlı çözüm' },
+  { icon: FiGrid, title: 'Kasa değişimi', text: 'Darbe, eğilme ve deformasyon yaşayan cihazlar için kasa yenileme' },
+  { icon: FiTool, title: 'Ön cam değişimi', text: 'Görüntü ve dokunmatik çalışırken kırılan ön cam için hassas değişim' },
 ];
 
 const steps = [
@@ -72,7 +75,7 @@ export default function Home() {
               <div className="flex items-center justify-between border-b border-black/10 pb-6"><div><span className="text-[10px] font-black uppercase tracking-[.2em] text-black/35">Servis kapsamı</span><p className="mt-2 text-xl font-black">Sık karşılaştığımız işlemler</p></div><span className="hidden rounded-full bg-[var(--taxi-yellow)] px-4 py-2 text-[10px] font-black uppercase tracking-wider sm:block">Entech servis</span></div>
               <div className="flex-1 divide-y divide-black/10">
                 {services.map(({ icon: Icon, title, text }, index) => (
-                  <Link href="/teknik-servis" key={title} className="group grid grid-cols-[48px_1fr_auto] items-center gap-4 py-7 sm:grid-cols-[52px_1fr_auto] sm:py-8">
+                  <Link href="/teknik-servis" key={title} className="group grid grid-cols-[48px_1fr_auto] items-center gap-4 py-5 sm:grid-cols-[52px_1fr_auto] sm:py-6">
                     <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[var(--paper)] text-[var(--taxi-deep)] transition group-hover:bg-[var(--taxi-yellow)] group-hover:text-black"><Icon className="h-5 w-5" /></span>
                     <div><div className="flex items-center gap-3"><span className="text-[9px] font-black text-black/25">0{index + 1}</span><h3 className="text-lg font-black tracking-[-.025em] sm:text-xl">{title}</h3></div><p className="mt-2 text-xs leading-6 text-black/45 sm:text-sm">{text}</p></div>
                     <FiArrowRight className="text-black/25 transition group-hover:translate-x-1 group-hover:text-black" />
