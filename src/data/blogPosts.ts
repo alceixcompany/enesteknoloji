@@ -18,7 +18,7 @@ export const blogPosts: BlogPost[] = [
     readTime: '4 dk okuma',
     title: 'Telefon bataryasının değişim zamanı nasıl anlaşılır?',
     excerpt: 'Hızlı tükenme, ani kapanma ve ısınma gibi belirtiler bataryanızın artık sağlıklı çalışmadığını gösterebilir.',
-    image: '/blog/batarya-degisimi-rehberi.webp',
+    image: '/images/edited/batarya-rafi-01.webp',
     publishedAt: '1 Eylül 2026',
     publishedDate: '2026-09-01',
     paragraphs: [
@@ -34,7 +34,7 @@ export const blogPosts: BlogPost[] = [
     readTime: '3 dk okuma',
     title: 'Kırık ekranı kullanmaya devam etmek doğru mu?',
     excerpt: 'Küçük görünen bir çatlak zamanla dokunmatik, görüntü ve cihaz güvenliği sorunlarına dönüşebilir.',
-    image: '/blog/kirik-ekran-rehberi.webp',
+    image: '/images/edited/ekran-koruyucu-rafi-02.webp',
     publishedAt: '1 Eylül 2026',
     publishedDate: '2026-09-01',
     paragraphs: [
@@ -50,7 +50,7 @@ export const blogPosts: BlogPost[] = [
     readTime: '5 dk okuma',
     title: 'Şarj kablosu seçerken nelere dikkat edilmeli?',
     excerpt: 'Doğru kablo seçimi şarj hızını etkilediği kadar cihazınızın ve bataryanızın güvenliği için de önemlidir.',
-    image: '/blog/sarj-kablosu-rehberi.webp',
+    image: '/images/edited/sarj-aksesuarlari.webp',
     publishedAt: '1 Eylül 2026',
     publishedDate: '2026-09-01',
     paragraphs: [

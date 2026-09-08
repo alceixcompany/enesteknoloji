@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: 'Hakkımızda | Enes Teknoloji',
     description: 'Enes Teknoloji’nin şeffaf iletişim, temiz işçilik ve satış sonrası desteğe dayanan hizmet anlayışını tanıyın.',
     url: '/hakkimizda',
-    images: ['/brand/hero-about.webp'],
+    images: ['/images/edited/telefon-kilifi-duvari-02.webp'],
   },
 };
 

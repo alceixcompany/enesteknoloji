@@ -10,7 +10,7 @@ const services = [
     title: 'Solaryum',
     description: 'Ten tipinize ve bronzluk hedefinize göre planlanan kontrollü, hijyenik solaryum seansları.',
     category: 'Bronzlaşma',
-    image: '/banner/sunnylife-solarium-studio.webp',
+    image: '/images/edited/magaza-genel-hero.webp',
     href: '/hizmetlerimiz/solaryum',
   },
   {

@@ -12,7 +12,7 @@ export default function BlogPage() {
         eyebrow="Teknoloji Blogu"
         title="Telefonunuzu daha uzun kullanın."
         description="Cihaz bakımı, sık karşılaşılan arızalar ve doğru aksesuar seçimi hakkında kısa, anlaşılır ve işe yarayan rehberler."
-        image="/blog/batarya-degisimi-rehberi.webp"
+        image="/images/edited/batarya-rafi-01.webp"
         imageAlt="Enes Teknoloji telefon teknik servis ve teknoloji rehberleri"
       />
 

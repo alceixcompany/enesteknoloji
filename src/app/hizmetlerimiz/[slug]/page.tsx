@@ -9,7 +9,7 @@ const servicesData = {
     title: 'Solaryum',
     icon: '☀️',
     description: 'Ten tipinize ve bronzluk hedefinize göre planlanan kontrollü solaryum deneyimi.',
-    heroImage: '/banner/sunnylife-solarium-studio.webp',
+    heroImage: '/images/edited/magaza-genel-hero.webp',
     features: [
       'Ten tipi değerlendirmesi',
       'Kademeli seans süresi',
@@ -35,8 +35,8 @@ const servicesData = {
       ]
     },
     gallery: [
-      '/banner/sunnylife-solarium-studio.webp',
-      '/banner/sunnylife-solarium-hero.webp'
+      '/images/edited/magaza-genel-hero.webp',
+      '/images/edited/telefon-kilifi-duvari-01.webp'
     ]
   },
   'cilt-bakimi': {
@@ -44,7 +44,7 @@ const servicesData = {
     title: 'Cilt Bakımı',
     icon: '✨',
     description: 'Cildinizin ihtiyacına uygun arındırma, nemlendirme ve canlandırma uygulamaları.',
-    heroImage: '/banner/sunnylife-solarium-studio.webp',
+    heroImage: '/images/edited/magaza-genel-hero.webp',
     features: [
       'Kişisel cilt analizi',
       'Derin temizlik uygulaması',
@@ -70,7 +70,7 @@ const servicesData = {
       ]
     },
     gallery: [
-      '/banner/sunnylife-solarium-studio.webp',
+      '/images/edited/magaza-genel-hero.webp',
       '/img/philosophy.png',
       '/Lale_logo.png'
     ]
@@ -80,7 +80,7 @@ const servicesData = {
     title: 'Lazer Epilasyon',
     icon: '🌿',
     description: 'Modern cihazlarla planlanan, konforlu ve düzenli takipli lazer epilasyon seansları.',
-    heroImage: '/banner/sunnylife-solarium-studio.webp',
+    heroImage: '/images/edited/magaza-genel-hero.webp',
     features: [
       'Bölgesel uygulama seçenekleri',
       'Kişiye uygun seans planlaması',
@@ -106,7 +106,7 @@ const servicesData = {
       ]
     },
     gallery: [
-      '/banner/sunnylife-solarium-studio.webp',
+      '/images/edited/magaza-genel-hero.webp',
       '/img/philosophy.png',
       '/Lale_logo.png'
     ]
@@ -116,7 +116,7 @@ const servicesData = {
     title: 'Kaş ve Kirpik',
     icon: '👁️',
     description: 'Yüzünüze uyumlu, doğal ama belirgin sonuç veren kaş ve kirpik uygulamaları.',
-    heroImage: '/banner/sunnylife-solarium-studio.webp',
+    heroImage: '/images/edited/magaza-genel-hero.webp',
     features: [
       'Kaş tasarımı',
       'Kaş şekillendirme',
@@ -142,7 +142,7 @@ const servicesData = {
       ]
     },
     gallery: [
-      '/banner/sunnylife-solarium-studio.webp',
+      '/images/edited/magaza-genel-hero.webp',
       '/img/philosophy.png',
       '/Lale_logo.png'
     ]
@@ -152,7 +152,7 @@ const servicesData = {
     title: 'Bölgesel Zayıflama',
     icon: '✨',
     description: 'Bölgesel incelme hedefinize uygun planlanan profesyonel seanslar.',
-    heroImage: '/banner/sunnylife-solarium-studio.webp',
+    heroImage: '/images/edited/magaza-genel-hero.webp',
     features: [
       'Bölgesel değerlendirme',
       'Kişisel seans planlaması',
@@ -178,7 +178,7 @@ const servicesData = {
       ]
     },
     gallery: [
-      '/banner/sunnylife-solarium-studio.webp',
+      '/images/edited/magaza-genel-hero.webp',
       '/img/philosophy.png',
       '/Lale_logo.png'
     ]
@@ -188,7 +188,7 @@ const servicesData = {
     title: 'İpek Kirpik',
     icon: '👁️',
     description: 'Bakışları belirginleştiren, zarif ve doğal görünümlü ipek kirpik uygulamaları.',
-    heroImage: '/banner/sunnylife-solarium-studio.webp',
+    heroImage: '/images/edited/magaza-genel-hero.webp',
     features: [
       'Göz yapısına uygun planlama',
       'Doğal görünüm odağı',
@@ -214,7 +214,7 @@ const servicesData = {
       ]
     },
     gallery: [
-      '/banner/sunnylife-solarium-studio.webp',
+      '/images/edited/magaza-genel-hero.webp',
       '/img/philosophy.png',
       '/Lale_logo.png'
     ]
@@ -224,7 +224,7 @@ const servicesData = {
     title: 'Protez Tırnak',
     icon: '💅',
     description: 'Şık, düzenli ve estetik bir görünüm sunan protez tırnak uygulamaları.',
-    heroImage: '/banner/sunnylife-solarium-studio.webp',
+    heroImage: '/images/edited/magaza-genel-hero.webp',
     features: [
       'El yapısına uygun form',
       'Uzunluk ve şekil seçimi',
@@ -250,7 +250,7 @@ const servicesData = {
       ]
     },
     gallery: [
-      '/banner/sunnylife-solarium-studio.webp',
+      '/images/edited/magaza-genel-hero.webp',
       '/img/philosophy.png',
       '/Lale_logo.png'
     ]
@@ -260,7 +260,7 @@ const servicesData = {
     title: 'Leke Bakımı',
     icon: '🌿',
     description: 'Cilt tonunu dengelemeye destek olan profesyonel leke bakım uygulamaları.',
-    heroImage: '/banner/sunnylife-solarium-studio.webp',
+    heroImage: '/images/edited/magaza-genel-hero.webp',
     features: [
       'Cilt tonu analizi',
       'Leke görünümüne uygun bakım',
@@ -286,7 +286,7 @@ const servicesData = {
       ]
     },
     gallery: [
-      '/banner/sunnylife-solarium-studio.webp',
+      '/images/edited/magaza-genel-hero.webp',
       '/img/philosophy.png',
       '/Lale_logo.png'
     ]
@@ -296,7 +296,7 @@ const servicesData = {
     title: 'Kalıcı Makyaj',
     icon: '✨',
     description: 'Yüz hatlarını doğal biçimde belirginleştiren kalıcı makyaj uygulamaları.',
-    heroImage: '/banner/sunnylife-solarium-studio.webp',
+    heroImage: '/images/edited/magaza-genel-hero.webp',
     features: [
       'Kişisel tasarım planı',
       'Doğal görünüm odağı',
@@ -322,7 +322,7 @@ const servicesData = {
       ]
     },
     gallery: [
-      '/banner/sunnylife-solarium-studio.webp',
+      '/images/edited/magaza-genel-hero.webp',
       '/img/philosophy.png',
       '/Lale_logo.png'
     ]
@@ -332,7 +332,7 @@ const servicesData = {
     title: 'Hydrafacial',
     icon: '💧',
     description: 'Arındırma, nemlendirme ve canlandırmayı bir araya getiren hydrafacial bakımı.',
-    heroImage: '/banner/sunnylife-solarium-studio.webp',
+    heroImage: '/images/edited/magaza-genel-hero.webp',
     features: [
       'Derin temizlik desteği',
       'Yoğun nem bakımı',
@@ -358,7 +358,7 @@ const servicesData = {
       ]
     },
     gallery: [
-      '/banner/sunnylife-solarium-studio.webp',
+      '/images/edited/magaza-genel-hero.webp',
       '/img/philosophy.png',
       '/Lale_logo.png'
     ]
@@ -368,7 +368,7 @@ const servicesData = {
     title: 'Akne Bakımı',
     icon: '🌿',
     description: 'Akneye eğilimli ciltler için dengeleyici ve arındırıcı profesyonel bakım uygulamaları.',
-    heroImage: '/banner/sunnylife-solarium-studio.webp',
+    heroImage: '/images/edited/magaza-genel-hero.webp',
     features: [
       'Akneye uygun cilt analizi',
       'Arındırıcı bakım adımları',
@@ -394,7 +394,7 @@ const servicesData = {
       ]
     },
     gallery: [
-      '/banner/sunnylife-solarium-studio.webp',
+      '/images/edited/magaza-genel-hero.webp',
       '/img/philosophy.png',
       '/Lale_logo.png'
     ]

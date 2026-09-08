@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: 'Teknoloji Blogu | Enes Teknoloji',
     description: 'Telefonunuzu daha uzun ve güvenli kullanmanıza yardımcı olacak anlaşılır teknoloji rehberleri.',
     url: '/blog',
-    images: ['/blog/batarya-degisimi-rehberi.webp'],
+    images: ['/images/edited/batarya-rafi-01.webp'],
   },
 };
 

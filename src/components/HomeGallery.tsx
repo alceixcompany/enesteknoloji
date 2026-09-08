@@ -3,9 +3,9 @@ import Link from 'next/link';
 import { FiArrowUpRight, FiCamera } from 'react-icons/fi';
 
 const images = [
-  { src: '/brand/enes-teknoloji-hero.webp', alt: 'Enes Teknoloji mağaza genel görünümü', label: 'Mağaza', className: 'md:col-span-7 md:row-span-2' },
-  { src: '/brand/gallery-accessories.webp', alt: 'Telefon aksesuarları rafları', label: 'Aksesuar alanı', className: 'md:col-span-5' },
-  { src: '/brand/gallery-repair.webp', alt: 'Telefon teknik servis masası', label: 'Teknik servis', className: 'md:col-span-5' },
+  { src: '/images/edited/magaza-genel-hero.webp', alt: 'Enes Teknoloji mağaza genel görünümü', label: 'Mağaza', className: 'md:col-span-7 md:row-span-2' },
+  { src: '/images/edited/telefon-kilifi-duvari-01.webp', alt: 'Telefon kılıfları ve aksesuar rafları', label: 'Aksesuar alanı', className: 'md:col-span-5' },
+  { src: '/images/edited/servis-parca-duvari.webp', alt: 'Telefon teknik servis parça alanı', label: 'Teknik servis', className: 'md:col-span-5' },
 ];
 
 export default function HomeGallery() {
@@ -33,7 +33,7 @@ export default function HomeGallery() {
           ))}
         </div>
 
-        <div className="mt-8 flex justify-end"><Link href="/hakkimizda" className="inline-flex items-center gap-3 border-b border-white/30 pb-2 text-sm font-black transition hover:border-[var(--taxi-yellow)] hover:text-[var(--taxi-yellow)]">Mağazayı daha yakından tanıyın <FiArrowUpRight /></Link></div>
+        <div className="mt-8 flex justify-end"><Link href="/galeri" className="inline-flex items-center gap-3 border-b border-white/30 pb-2 text-sm font-black transition hover:border-[var(--taxi-yellow)] hover:text-[var(--taxi-yellow)]">Tüm fotoğrafları inceleyin <FiArrowUpRight /></Link></div>
       </div>
     </section>
   );

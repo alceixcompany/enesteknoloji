@@ -27,17 +27,17 @@ export const metadata = {
     title: 'Telefon Teknik Servis | Enes Teknoloji',
     description: '81 ile hizmet, 30 dakikada ekran ve batarya değişimi; şeffaf ve kontrollü teknik servis süreci.',
     url: '/teknik-servis',
-    images: ['/brand/hero-service.webp'],
+    images: ['/images/edited/servis-parca-duvari.webp'],
   },
 };
 
 export default function ServicePage() {
   return <main className="bg-[var(--paper)] text-[var(--ink)]">
-    <StorePageHero index="01" eyebrow="81 İle Hizmet" title="30 dakikada ekran ve batarya değişimi." description="Türkiye'nin 81 iline hizmet veriyor; arızayı doğru tespit edip seçenekleri açıkça anlatarak onayınızla kontrollü bir servis süreci yürütüyoruz." image="/brand/hero-service.webp" imageAlt="Enes Teknoloji profesyonel telefon teknik servis atölyesi" />
+    <StorePageHero index="01" eyebrow="81 İle Hizmet" title="30 dakikada ekran ve batarya değişimi." description="Türkiye'nin 81 iline hizmet veriyor; arızayı doğru tespit edip seçenekleri açıkça anlatarak onayınızla kontrollü bir servis süreci yürütüyoruz." image="/images/edited/servis-parca-duvari.webp" imageAlt="Enes Teknoloji profesyonel telefon teknik servis parça alanı" />
 
     <section className="px-5 py-20 sm:px-8 lg:px-12 lg:py-28"><div className="mx-auto grid max-w-[1440px] gap-14 lg:grid-cols-[.92fr_1.08fr] lg:items-center lg:gap-20">
       <div className="relative pb-10 pr-0 sm:pr-12">
-        <div className="relative min-h-[520px] overflow-hidden rounded-[34px]"><Image src="/brand/gallery-repair.webp" alt="Enes Teknoloji teknik servis çalışma alanı" fill className="object-cover" sizes="(max-width:1024px) 100vw, 45vw" /><div className="absolute inset-0 bg-gradient-to-t from-black/55 via-transparent to-transparent"/><div className="absolute bottom-7 left-7 text-white"><span className="text-[10px] font-black uppercase tracking-[.2em] text-[var(--taxi-yellow)]">Çalışma alanımız</span><p className="mt-2 text-2xl font-black">Düzenli. Kontrollü. Şeffaf.</p></div></div>
+        <div className="relative min-h-[520px] overflow-hidden rounded-[34px]"><Image src="/images/edited/ekran-koruyucu-rafi-dikey.webp" alt="Enes Teknoloji teknik servis ürün alanı" fill className="object-cover" sizes="(max-width:1024px) 100vw, 45vw" /><div className="absolute inset-0 bg-gradient-to-t from-black/55 via-transparent to-transparent"/><div className="absolute bottom-7 left-7 text-white"><span className="text-[10px] font-black uppercase tracking-[.2em] text-[var(--taxi-yellow)]">Çalışma alanımız</span><p className="mt-2 text-2xl font-black">Düzenli. Kontrollü. Şeffaf.</p></div></div>
         <div className="absolute bottom-0 right-0 hidden rounded-[24px] border-[8px] border-[var(--paper)] bg-[var(--taxi-yellow)] p-6 sm:block"><FiShield className="h-7 w-7"/><b className="mt-5 block text-xl">Teslim öncesi</b><span className="mt-1 block text-xs text-black/50">fonksiyon kontrolü</span></div>
       </div>
       <div><p className="section-tag">Servis kapsamı</p><h2 className="mt-5 text-3xl font-black leading-[1.02] tracking-[-.05em] sm:text-5xl">En sık çözdüğümüz sorunlar.</h2><p className="mt-6 max-w-xl text-sm leading-7 text-black/50">Her arıza aynı değildir. Cihazı görerek değerlendirir, gereksiz parça değişiminden kaçınırız.</p>

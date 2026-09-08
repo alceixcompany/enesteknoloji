@@ -20,7 +20,7 @@ const services = [
     description:
       'Ten tipiniz, önceki bronzlaşma deneyiminiz ve hedefiniz değerlendirilerek size özel bir seans akışı oluşturulur.',
     highlights: ['Ten tipi değerlendirmesi', 'Kademeli süre planı', 'Hijyenik seans hazırlığı'],
-    image: '/banner/sunnylife-solarium-studio.webp',
+    image: '/images/edited/magaza-genel-hero.webp',
     href: '/hizmetlerimiz/solaryum',
     icon: FiSun,
   },

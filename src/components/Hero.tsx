@@ -46,7 +46,7 @@ const Hero = () => {
           className="relative min-h-screen w-full overflow-hidden bg-[var(--brand-panel-deep)]"
         >
           <Image
-            src="/banner/sunnylife-solarium-studio.webp"
+            src="/images/edited/magaza-genel-hero.webp"
             alt="Sunny Life Solarium & Beauty modern solaryum stüdyosu"
             fill
             priority

@@ -9,8 +9,9 @@ export const metadata: Metadata = {
     description: 'Enes Teknoloji mağazası ve teknik servis çalışma alanından kareler.',
     url: '/galeri',
     type: 'website',
+    images: ['/images/edited/magaza-genel-hero.webp'],
   },
-  robots: { index: false, follow: false },
+  robots: { index: true, follow: true },
 };
 
 export default function GaleriLayout({

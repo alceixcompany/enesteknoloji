@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: 'İletişim | Enes Teknoloji',
     description: 'Teknik servis, cihaz ve aksesuar sorularınız için Enes Teknoloji’ye kolayca ulaşın.',
     url: '/iletisim',
-    images: ['/brand/hero-contact.webp'],
+    images: ['/images/edited/magaza-giris-02.webp'],
   },
 };
 

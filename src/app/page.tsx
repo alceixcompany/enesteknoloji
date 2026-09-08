@@ -38,7 +38,7 @@ export default function Home() {
 
           <div className="grid overflow-hidden rounded-[36px] border border-black/10 bg-white shadow-[0_28px_80px_rgba(20,20,20,.10)] lg:grid-cols-[.92fr_1.08fr]">
             <div className="relative min-h-[430px] overflow-hidden lg:min-h-[650px]">
-              <Image src="/brand/gallery-repair.webp" alt="Enes Teknoloji profesyonel telefon teknik servis masası" fill className="object-cover" sizes="(max-width:1024px) 100vw, 46vw" />
+              <Image src="/images/edited/servis-parca-duvari.webp" alt="Enes Teknoloji profesyonel telefon teknik servis parça alanı" fill className="object-cover" sizes="(max-width:1024px) 100vw, 46vw" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-transparent to-black/10" />
               <div className="absolute left-6 top-6 flex items-center gap-3 rounded-full border border-white/20 bg-black/35 px-4 py-2 text-[10px] font-black uppercase tracking-[.18em] text-white backdrop-blur-md"><span className="h-2 w-2 rounded-full bg-[var(--taxi-yellow)]" /> Kontrollü çalışma alanı</div>
               <div className="absolute inset-x-6 bottom-6 grid grid-cols-2 gap-3">
@@ -89,7 +89,7 @@ export default function Home() {
 
       <section className="px-5 py-24 sm:px-8 lg:px-12 lg:py-32">
         <div className="mx-auto grid max-w-[1440px] overflow-hidden rounded-[38px] bg-[var(--taxi-yellow)] lg:grid-cols-[1.05fr_.95fr]">
-          <div className="relative min-h-[420px] lg:min-h-[620px]"><Image src="/brand/enes-teknoloji-hero.webp" alt="Enes Teknoloji mağazası" fill className="object-cover object-right" sizes="(max-width:1024px) 100vw, 55vw" /><div className="absolute inset-0 bg-[linear-gradient(90deg,transparent_55%,rgba(230,185,31,.5))]" /></div>
+          <div className="relative min-h-[420px] lg:min-h-[620px]"><Image src="/images/edited/magaza-genel-hero.webp" alt="Enes Teknoloji mağazası" fill className="object-cover object-center" sizes="(max-width:1024px) 100vw, 55vw" /><div className="absolute inset-0 bg-[linear-gradient(90deg,transparent_55%,rgba(230,185,31,.5))]" /></div>
           <div className="flex flex-col justify-center p-8 sm:p-12 lg:p-16">
             <p className="section-tag">Enes Teknoloji</p>
             <h2 className="mt-5 text-3xl font-black leading-[1.01] tracking-[-.055em] sm:text-5xl">Türkiye&apos;nin 81 ilinde teknoloji çözüm ortağınız.</h2>

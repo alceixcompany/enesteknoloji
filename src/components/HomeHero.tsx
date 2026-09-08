@@ -7,22 +7,22 @@ import { FiArrowRight, FiCheck, FiClock, FiMessageCircle, FiShield } from 'react
 
 const slides = [
   {
-    src: '/brand/enes-teknoloji-hero.webp',
+    src: '/images/edited/magaza-genel-hero.webp',
     alt: 'Enes Teknoloji telefon ve aksesuar mağazası',
-    position: 'object-[62%_center]',
+    position: 'object-center',
   },
   {
-    src: '/brand/hero-about.webp',
+    src: '/images/edited/telefon-kilifi-duvari-02.webp',
     alt: 'Enes Teknoloji mağazası ve profesyonel hizmet alanı',
     position: 'object-center',
   },
   {
-    src: '/brand/gallery-repair.webp',
-    alt: 'Enes Teknoloji telefon onarım çalışma alanı',
+    src: '/images/edited/servis-parca-duvari.webp',
+    alt: 'Enes Teknoloji teknik servis parça alanı',
     position: 'object-center',
   },
   {
-    src: '/brand/gallery-accessories.webp',
+    src: '/images/edited/aksesuar-duvari.webp',
     alt: 'Enes Teknoloji telefon aksesuarları',
     position: 'object-center',
   },

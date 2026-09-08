@@ -53,7 +53,7 @@ export default function AdminLogin() {
         >
           <section className="relative hidden min-h-[720px] overflow-hidden lg:block">
             <Image
-              src="/brand/gallery-repair.webp"
+              src="/images/edited/servis-parca-duvari.webp"
               alt="Enes Teknoloji yönetim paneli"
               fill
               priority
