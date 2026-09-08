@@ -1,11 +1,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import {
-  FiArrowRight, FiBatteryCharging, FiCheck, FiClock, FiCpu, FiGrid,
-  FiMessageCircle, FiPhone, FiShield, FiSmartphone, FiTool, FiZap,
+  FiArrowRight, FiBatteryCharging, FiCheck, FiCpu, FiGrid,
+  FiPhone, FiShield, FiSmartphone, FiTool, FiZap,
 } from 'react-icons/fi';
 import HomeGallery from '@/components/HomeGallery';
 import HomeBlog from '@/components/HomeBlog';
+import HomeHero from '@/components/HomeHero';
 
 const services = [
   { icon: FiSmartphone, title: 'Ekran değişimi', text: 'Kırık ekran, görüntü ve dokunmatik sorunlarına hızlı çözüm' },
@@ -26,32 +27,7 @@ const steps = [
 export default function Home() {
   return (
     <main className="overflow-hidden bg-[var(--paper)] text-[var(--ink)]">
-      <section className="relative min-h-[760px] bg-[var(--ink)] pt-[76px] text-white lg:min-h-[820px]">
-        <Image src="/brand/enes-teknoloji-hero.webp" alt="Enes Teknoloji telefon ve aksesuar mağazası" fill priority className="object-cover object-[62%_center]" sizes="100vw" />
-        <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(13,14,15,.96)_0%,rgba(13,14,15,.82)_40%,rgba(13,14,15,.16)_72%,rgba(13,14,15,.06)_100%)]" />
-        <div className="absolute inset-0 bg-[linear-gradient(180deg,transparent_55%,rgba(13,14,15,.72)_100%)]" />
-        <div className="relative mx-auto flex min-h-[684px] max-w-[1440px] items-center px-5 pb-24 sm:px-8 lg:min-h-[744px] lg:px-12 lg:pb-28">
-          <div className="relative z-10">
-            <div className="mb-7 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-[11px] font-black uppercase tracking-[.2em] backdrop-blur-sm">
-              <span className="h-2 w-2 rounded-full bg-[var(--taxi-yellow)]" /> Türkiye&apos;nin 81 iline hizmet
-            </div>
-            <h1 className="max-w-3xl text-[54px] font-black leading-[.91] tracking-[-.065em] sm:text-[72px] lg:text-[92px]">Teknoloji<br />bizim <span className="outline-word-light">işimiz.</span></h1>
-            <p className="mt-8 max-w-xl text-base font-medium leading-7 text-white/65 sm:text-lg">Telefonunuz için güvenilir teknik servis, doğru yönlendirme ve hızlı çözüm tek adreste.</p>
-            <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-              <Link href="/teknik-servis" className="group inline-flex items-center justify-center gap-3 rounded-xl bg-[var(--taxi-yellow)] px-7 py-4 text-sm font-black text-[var(--ink)] shadow-[0_14px_0_rgba(0,0,0,.2)] transition hover:-translate-y-1">Teknik servisi incele <FiArrowRight className="transition group-hover:translate-x-1" /></Link>
-              <a href="https://wa.me/905312899969" className="inline-flex items-center justify-center gap-3 rounded-xl border border-white/25 bg-white/10 px-7 py-4 text-sm font-black text-white backdrop-blur transition hover:bg-white/20"><FiMessageCircle /> WhatsApp&apos;tan yaz</a>
-            </div>
-            <div className="mt-12 flex flex-wrap gap-x-8 gap-y-4 text-xs font-bold text-white/60">
-              <span className="flex items-center gap-2"><FiShield className="h-4 w-4" /> Garantili işlem</span>
-              <span className="flex items-center gap-2"><FiClock className="h-4 w-4" /> 30 dakikada ekran ve batarya değişimi</span>
-              <span className="flex items-center gap-2"><FiCheck className="h-4 w-4" /> Uzman destek</span>
-            </div>
-          </div>
-        </div>
-        <div className="absolute inset-x-0 bottom-0 overflow-hidden bg-[var(--ink)] py-4 text-[var(--taxi-yellow)]">
-          <div className="marquee-track flex min-w-max items-center gap-10 text-xs font-black uppercase tracking-[.22em]">{[1,2].map(row => <div key={row} className="flex items-center gap-10">81 İle Hizmet <span>✦</span> 30 Dakikada Ekran Değişimi <span>✦</span> 30 Dakikada Batarya Değişimi <span>✦</span> Teknik Servis <span>✦</span></div>)}</div>
-        </div>
-      </section>
+      <HomeHero />
 
       <section className="bg-[var(--paper)] px-5 py-24 sm:px-8 lg:px-12 lg:py-32">
         <div className="mx-auto max-w-[1440px]">
