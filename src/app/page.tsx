@@ -7,6 +7,8 @@ import {
 import HomeGallery from '@/components/HomeGallery';
 import HomeBlog from '@/components/HomeBlog';
 import HomeHero from '@/components/HomeHero';
+import HomeTrust from '@/components/HomeTrust';
+import WhyEnesTechnology from '@/components/WhyEnesTechnology';
 
 const services = [
   { icon: FiSmartphone, title: 'Ekran değişimi', text: 'Kırık ekran, görüntü ve dokunmatik sorunlarına hızlı çözüm' },
@@ -29,7 +31,7 @@ export default function Home() {
     <main className="overflow-hidden bg-[var(--paper)] text-[var(--ink)]">
       <HomeHero />
 
-      <section className="bg-[var(--paper)] px-5 py-24 sm:px-8 lg:px-12 lg:py-32">
+      <section id="teknik-servis" className="scroll-mt-24 bg-[var(--paper)] px-5 py-24 sm:px-8 lg:px-12 lg:py-32">
         <div className="mx-auto max-w-[1440px]">
           <div className="mb-14 flex flex-col justify-between gap-7 lg:flex-row lg:items-end">
             <div><p className="section-tag">Teknik servis</p><h2 className="mt-5 max-w-3xl text-3xl font-black leading-[.98] tracking-[-.055em] sm:text-5xl">Cihazınız için doğru teşhis,<br /><span className="text-[var(--taxi-deep)]">temiz işçilik.</span></h2></div>
@@ -64,6 +66,8 @@ export default function Home() {
         </div>
       </section>
 
+      <WhyEnesTechnology />
+
       <section className="border-y border-black/10 bg-white px-5 py-24 sm:px-8 lg:px-12 lg:py-32">
         <div className="mx-auto grid max-w-[1440px] gap-14 lg:grid-cols-[.68fr_1.32fr] lg:gap-24">
           <div>
@@ -87,6 +91,8 @@ export default function Home() {
 
       <HomeGallery />
 
+      <HomeTrust />
+
       <section className="px-5 py-24 sm:px-8 lg:px-12 lg:py-32">
         <div className="mx-auto grid max-w-[1440px] overflow-hidden rounded-[38px] bg-[var(--taxi-yellow)] lg:grid-cols-[1.05fr_.95fr]">
           <div className="relative min-h-[420px] lg:min-h-[620px]"><Image src="/images/edited/magaza-genel-hero.webp" alt="Enes Teknoloji mağazası" fill className="object-cover object-center" sizes="(max-width:1024px) 100vw, 55vw" /><div className="absolute inset-0 bg-[linear-gradient(90deg,transparent_55%,rgba(230,185,31,.5))]" /></div>
@@ -106,7 +112,7 @@ export default function Home() {
         <div className="mx-auto flex max-w-[1440px] flex-col gap-10 lg:flex-row lg:items-center lg:justify-between">
           <div><p className="text-[11px] font-black uppercase tracking-[.22em] text-[var(--taxi-yellow)]">İletişim</p><h2 className="mt-4 max-w-3xl text-3xl font-black leading-tight tracking-[-.05em] sm:text-5xl">Telefonunuz için doğru adım burada başlıyor.</h2></div>
           <div className="flex shrink-0 flex-col gap-3 sm:flex-row lg:flex-col">
-            <a href="tel:+905312899969" className="inline-flex items-center justify-center gap-3 rounded-xl bg-[var(--taxi-yellow)] px-7 py-4 text-sm font-black text-black"><FiPhone /> 0531 289 99 69</a>
+            <a href="tel:+905365278175" className="inline-flex items-center justify-center gap-3 rounded-xl bg-[var(--taxi-yellow)] px-7 py-4 text-sm font-black text-black"><FiPhone /> 0536 527 81 75</a>
             <Link href="/iletisim" className="inline-flex items-center justify-center gap-3 rounded-xl border border-white/15 px-7 py-4 text-sm font-black text-white">İletişim sayfası <FiArrowRight /></Link>
           </div>
         </div>

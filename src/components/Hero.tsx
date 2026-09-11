@@ -30,8 +30,8 @@ const group: Variants = {
 };
 
 const details = [
-  { icon: FiMapPin, label: 'Konum', value: 'Anadolu Hisarı / İstanbul' },
-  { icon: FiPhone, label: 'İletişim', value: '0531 289 99 69' },
+  { icon: FiMapPin, label: 'Konum', value: 'Güngören / İstanbul' },
+  { icon: FiPhone, label: 'İletişim', value: '0536 527 81 75' },
   { icon: FiClock, label: 'Deneyim', value: 'Kişiye özel seans planı' },
 ] as const;
 

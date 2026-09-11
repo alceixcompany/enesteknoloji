@@ -33,7 +33,7 @@ const sections = [
   {
     icon: FiMail,
     title: '6. İletişim ve Bilgi Talebi',
-    content: 'Gizlilik Politikamız veya KVKK kapsamındaki haklarınızla ilgili tüm soru, öneri ve taleplerinizi mağazamıza yazılı olarak veya 0531 289 99 69 numaralı telefon hattımız üzerinden bizimle paylaşabilirsiniz. Talepleriniz en kısa sürede ve en geç 30 gün içinde yanıtlanacaktır.'
+    content: 'Gizlilik Politikamız veya KVKK kapsamındaki haklarınızla ilgili tüm soru, öneri ve taleplerinizi mağazamıza yazılı olarak veya 0536 527 81 75 numaralı telefon hattımız üzerinden bizimle paylaşabilirsiniz. Talepleriniz en kısa sürede ve en geç 30 gün içinde yanıtlanacaktır.'
   }
 ];
 

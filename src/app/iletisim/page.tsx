@@ -6,9 +6,9 @@ import { FiArrowUpRight, FiClock, FiMapPin, FiMessageCircle, FiPhone, FiSend } f
 import StorePageHero from '@/components/StorePageHero';
 
 const contactItems = [
-  { icon: FiPhone, label: 'Telefon', value: '0531 289 99 69', note: 'Doğrudan bizi arayın', href: 'tel:+905312899969' },
-  { icon: FiMessageCircle, label: 'WhatsApp', value: 'Hızlı destek hattı', note: 'Mesajınızı hemen iletin', href: 'https://wa.me/905312899969' },
-  { icon: FiMapPin, label: 'Mağaza', value: 'Konum bilgisi', note: 'Yol tarifi için bizi arayın', href: 'tel:+905312899969' },
+  { icon: FiPhone, label: 'Telefon', value: '0536 527 81 75', note: 'Doğrudan bizi arayın', href: 'tel:+905365278175' },
+  { icon: FiMessageCircle, label: 'WhatsApp', value: 'Hızlı destek hattı', note: 'Mesajınızı hemen iletin', href: 'https://wa.me/905365278175' },
+  { icon: FiMapPin, label: 'Mağaza', value: 'Merkez Mah. Soğanlı Cd. No:80/C', note: 'Güngören / İstanbul', href: 'https://www.google.com/maps/search/?api=1&query=Merkez%20Mahallesi%20So%C4%9Fanl%C4%B1%20Caddesi%20No%3A80%2FC%20G%C3%BCng%C3%B6ren%20%C4%B0stanbul' },
 ];
 
 export default function ContactPage() {
@@ -22,7 +22,7 @@ export default function ContactPage() {
       `Konu: ${data.get('subject')}`,
       `Mesaj: ${data.get('message')}`,
     ].join('\n');
-    window.open(`https://wa.me/905312899969?text=${encodeURIComponent(message)}`, '_blank', 'noopener,noreferrer');
+    window.open(`https://wa.me/905365278175?text=${encodeURIComponent(message)}`, '_blank', 'noopener,noreferrer');
   };
 
   return <main className="bg-[var(--paper)] text-[var(--ink)]">
@@ -37,7 +37,7 @@ export default function ContactPage() {
         <Image src="/images/edited/magaza-giris-dikey.webp" alt="Enes Teknoloji mağaza iletişim" fill className="object-cover opacity-25" sizes="(max-width:1024px) 100vw, 43vw"/>
         <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(23,24,25,.58),rgba(23,24,25,.97))]"/>
         <div className="relative flex h-full flex-col"><p className="text-[11px] font-black uppercase tracking-[.22em] text-[var(--taxi-yellow)]">Mağaza bilgileri</p><h2 className="mt-5 max-w-md text-3xl font-black leading-tight tracking-[-.05em]">Sorunuz varsa, doğru kişiye ulaştınız.</h2><p className="mt-5 max-w-md text-sm leading-7 text-white/50">Cihazınızı getirmeden önce arayarak servis yoğunluğu ve tahmini değerlendirme süresi hakkında bilgi alabilirsiniz.</p>
-          <div className="mt-auto space-y-4 pt-16"><div className="flex gap-4 border-t border-white/12 pt-5"><FiClock className="mt-1 text-[var(--taxi-yellow)]"/><div><b className="block text-sm">Çalışma saatleri</b><span className="mt-1 block text-xs text-white/40">Güncel saat bilgisi için bizi arayın</span></div></div><div className="flex gap-4 border-t border-white/12 pt-5"><FiMapPin className="mt-1 text-[var(--taxi-yellow)]"/><div><b className="block text-sm">Mağaza konumu</b><span className="mt-1 block text-xs text-white/40">Yol tarifi bağlantısı adres bilgisiyle eklenecek</span></div></div></div>
+          <div className="mt-auto space-y-4 pt-16"><div className="flex gap-4 border-t border-white/12 pt-5"><FiClock className="mt-1 text-[var(--taxi-yellow)]"/><div><b className="block text-sm">Çalışma saatleri</b><span className="mt-1 block text-xs text-white/40">Her gün 11:00–22:00</span></div></div><div className="flex gap-4 border-t border-white/12 pt-5"><FiMapPin className="mt-1 text-[var(--taxi-yellow)]"/><div><b className="block text-sm">Mağaza konumu</b><a href="https://www.google.com/maps/search/?api=1&query=Merkez%20Mahallesi%20So%C4%9Fanl%C4%B1%20Caddesi%20No%3A80%2FC%20G%C3%BCng%C3%B6ren%20%C4%B0stanbul" target="_blank" rel="noopener noreferrer" className="mt-1 block max-w-sm text-xs leading-5 text-white/50 transition hover:text-white">Merkez Mahallesi Soğanlı Caddesi No:80/C, Güngören / İstanbul</a></div></div></div>
         </div>
       </div>
 
@@ -49,5 +49,15 @@ export default function ContactPage() {
         <div className="mt-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between"><p className="max-w-xs text-xs leading-5 text-black/35">Gönder butonu sizi güvenli WhatsApp görüşmesine yönlendirir.</p><button type="submit" className="inline-flex items-center justify-center gap-3 rounded-xl bg-[var(--taxi-yellow)] px-7 py-4 text-sm font-black text-black transition hover:-translate-y-0.5 hover:shadow-lg">Mesajı hazırla <FiSend/></button></div>
       </form>
     </div></section>
+
+    <section className="px-5 pb-24 sm:px-8 lg:px-12 lg:pb-32">
+      <div className="mx-auto max-w-[1440px] overflow-hidden rounded-[36px] bg-white shadow-[0_30px_90px_rgba(20,20,20,.1)]">
+        <div className="flex flex-col gap-4 p-7 sm:flex-row sm:items-end sm:justify-between sm:p-10">
+          <div><p className="section-tag">Konum</p><h2 className="mt-4 text-3xl font-black tracking-[-.05em] sm:text-4xl">Mağazamızı ziyaret edin.</h2><p className="mt-3 text-sm leading-7 text-black/45">Merkez Mahallesi Soğanlı Caddesi No:80/C, Güngören / İstanbul</p></div>
+          <a href="https://www.google.com/maps/search/?api=1&query=Merkez%20Mahallesi%20So%C4%9Fanl%C4%B1%20Caddesi%20No%3A80%2FC%20G%C3%BCng%C3%B6ren%20%C4%B0stanbul" target="_blank" rel="noopener noreferrer" className="inline-flex shrink-0 items-center justify-center gap-2 rounded-xl bg-[var(--ink)] px-6 py-4 text-sm font-black text-white transition hover:-translate-y-0.5">Google Maps&apos;te aç <FiArrowUpRight/></a>
+        </div>
+        <iframe title="Enes Teknoloji mağaza konumu" src="https://www.google.com/maps?q=Merkez%20Mahallesi%20So%C4%9Fanl%C4%B1%20Caddesi%20No%3A80%2FC%20G%C3%BCng%C3%B6ren%20%C4%B0stanbul&output=embed" className="h-[360px] w-full border-0 sm:h-[460px]" loading="lazy" referrerPolicy="no-referrer-when-downgrade" allowFullScreen />
+      </div>
+    </section>
   </main>;
 }

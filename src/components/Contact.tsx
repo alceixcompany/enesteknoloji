@@ -34,12 +34,12 @@ const Contact = () => {
 
             <div className="grid gap-4 sm:grid-cols-2">
               <a
-                href="tel:+905312899969"
+                href="tel:+905365278175"
                 className="rounded-[24px] bg-white/[0.88] px-5 py-5 text-[var(--dream-dark)] shadow-[0_16px_40px_rgba(95,89,108,0.12)] transition-transform duration-300 hover:-translate-y-1"
               >
                 <FiPhone className="h-5 w-5 text-[var(--lale-gold)]" />
                 <p className="mt-4 text-xs tracking-[0.14em] text-[var(--lale-gold)]">TELEFON</p>
-                <p className="mt-2 text-base font-medium">0531 289 99 69</p>
+                <p className="mt-2 text-base font-medium">0536 527 81 75</p>
               </a>
 
               <a
@@ -62,8 +62,8 @@ const Contact = () => {
               <FiPhone className="h-7 w-7" />
             </div>
             <h3 className="mb-3 text-base font-semibold text-[var(--dream-dark)]">Telefon</h3>
-            <a href="tel:+905312899969" className="text-lg font-medium text-[var(--lale-gold)] transition-colors hover:text-[var(--lale-gold-soft)]">
-              0531 289 99 69
+            <a href="tel:+905365278175" className="text-lg font-medium text-[var(--lale-gold)] transition-colors hover:text-[var(--lale-gold-soft)]">
+              0536 527 81 75
             </a>
             <p className="mt-3 text-sm text-[var(--dream-text)]">Randevu ve bilgi için hemen ulaşın</p>
           </div>
@@ -89,8 +89,8 @@ const Contact = () => {
               <FiMapPin className="h-7 w-7" />
             </div>
             <h3 className="mb-3 text-base font-semibold text-[var(--dream-dark)]">Adres</h3>
-            <p className="text-base text-[var(--dream-dark)]">Anadolu Hisarı / İstanbul</p>
-            <p className="mt-3 text-sm text-[var(--dream-text)]">Randevu öncesi konum bilgisi için bize ulaşın</p>
+            <p className="text-base text-[var(--dream-dark)]">Merkez Mah. Soğanlı Cd. No:80/C, Güngören / İstanbul</p>
+            <p className="mt-3 text-sm text-[var(--dream-text)]">Her gün 11:00–22:00</p>
           </div>
         </div>
 

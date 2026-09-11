@@ -96,7 +96,7 @@ export default function HomeHero() {
             <Link href="/teknik-servis" className="group inline-flex items-center justify-center gap-3 rounded-xl bg-[var(--taxi-yellow)] px-7 py-4 text-sm font-black text-[var(--ink)] shadow-[0_14px_0_rgba(0,0,0,.2)] transition hover:-translate-y-1">
               Teknik servisi incele <FiArrowRight className="transition group-hover:translate-x-1" />
             </Link>
-            <a href="https://wa.me/905312899969" className="inline-flex items-center justify-center gap-3 rounded-xl border border-white/25 bg-white/10 px-7 py-4 text-sm font-black text-white backdrop-blur transition hover:bg-white/20">
+            <a href="https://wa.me/905365278175" className="inline-flex items-center justify-center gap-3 rounded-xl border border-white/25 bg-white/10 px-7 py-4 text-sm font-black text-white backdrop-blur transition hover:bg-white/20">
               <FiMessageCircle /> WhatsApp&apos;tan yaz
             </a>
           </div>

@@ -10,7 +10,7 @@ const images = [
 
 export default function HomeGallery() {
   return (
-    <section className="bg-[var(--ink)] px-5 py-24 text-white sm:px-8 lg:px-12 lg:py-32">
+    <section id="aksesuar" className="scroll-mt-24 bg-[var(--ink)] px-5 py-24 text-white sm:px-8 lg:px-12 lg:py-32">
       <div className="mx-auto max-w-[1440px]">
         <div className="flex flex-col justify-between gap-7 md:flex-row md:items-end">
           <div>

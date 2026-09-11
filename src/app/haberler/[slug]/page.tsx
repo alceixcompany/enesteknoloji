@@ -103,7 +103,7 @@ const HaberDetay = () => {
 
   const shareOnWhatsApp = () => {
     const text = `${haber?.title || ''} ${window.location.href}`;
-    const url = `https://wa.me/905312899969/?text=${encodeURIComponent(text)}`;
+    const url = `https://wa.me/905365278175/?text=${encodeURIComponent(text)}`;
     window.open(url, '_blank');
   };
 

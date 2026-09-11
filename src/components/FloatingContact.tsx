@@ -9,7 +9,7 @@ export default function FloatingContact() {
 
   return (
     <a
-      href="https://wa.me/905312899969"
+      href="https://wa.me/905365278175"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="WhatsApp üzerinden iletişime geç"

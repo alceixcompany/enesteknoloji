@@ -27,10 +27,12 @@ export default function Footer() {
           </div>
           <div>
             <h3 className="text-[10px] font-black uppercase tracking-[.2em] text-[var(--taxi-yellow)]">İletişim</h3>
-            <a href="tel:+905312899969" className="mt-4 block text-base font-black transition hover:text-[var(--taxi-yellow)]">0531 289 99 69</a>
+            <a href="tel:+905365278175" className="mt-4 block text-base font-black transition hover:text-[var(--taxi-yellow)]">0536 527 81 75</a>
+            <p className="mt-2 text-xs leading-5 text-white/45">Merkez Mah. Soğanlı Cd. No:80/C<br />Güngören / İstanbul</p>
+            <p className="mt-2 text-xs text-white/45">Her gün 11:00–22:00</p>
             <div className="mt-4 flex gap-2">
-              <a href="tel:+905312899969" aria-label="Telefon" className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/10 text-sm transition hover:bg-[var(--taxi-yellow)] hover:text-black"><FiPhone /></a>
-              <a href="https://wa.me/905312899969" aria-label="WhatsApp" className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/10 text-sm transition hover:bg-[var(--taxi-yellow)] hover:text-black"><FiMessageCircle /></a>
+              <a href="tel:+905365278175" aria-label="Telefon" className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/10 text-sm transition hover:bg-[var(--taxi-yellow)] hover:text-black"><FiPhone /></a>
+              <a href="https://wa.me/905365278175" aria-label="WhatsApp" className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/10 text-sm transition hover:bg-[var(--taxi-yellow)] hover:text-black"><FiMessageCircle /></a>
               <a href="#" aria-label="Instagram" className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/10 text-sm transition hover:bg-[var(--taxi-yellow)] hover:text-black"><FiInstagram /></a>
             </div>
           </div>
