@@ -6,6 +6,8 @@ import {
 } from 'react-icons/fi';
 import HomeGallery from '@/components/HomeGallery';
 import HomeBlog from '@/components/HomeBlog';
+import HomeContact from '@/components/HomeContact';
+import ContactMap from '@/components/ContactMap';
 import HomeHero from '@/components/HomeHero';
 import HomeTrust from '@/components/HomeTrust';
 import WhyEnesTechnology from '@/components/WhyEnesTechnology';
@@ -107,6 +109,10 @@ export default function Home() {
       </section>
 
       <HomeBlog />
+
+      <HomeContact />
+
+      <ContactMap />
 
       <section className="bg-[var(--ink)] px-5 py-20 text-white sm:px-8 lg:px-12 lg:py-24">
         <div className="mx-auto flex max-w-[1440px] flex-col gap-10 lg:flex-row lg:items-center lg:justify-between">

@@ -52,6 +52,6 @@ export default function ServicePage() {
     </div></section>
 
     <section className="px-5 py-20 sm:px-8 lg:px-12 lg:py-24"><div className="mx-auto grid max-w-[1440px] gap-10 rounded-[32px] bg-white p-7 sm:p-10 lg:grid-cols-[1fr_auto] lg:items-center"><div><p className="section-tag">Servis notu</p><h2 className="mt-4 text-2xl font-black tracking-[-.04em] sm:text-3xl">Sıvı teması veya ağır darbe varsa cihazı zorlamayın.</h2><p className="mt-3 max-w-3xl text-sm leading-7 text-black/45">Cihazı şarja takmadan ve tekrar açmayı denemeden teknik değerlendirme için getirin.</p></div><Link href="/iletisim" className="inline-flex items-center justify-center gap-3 rounded-xl bg-[var(--ink)] px-7 py-4 text-sm font-black text-white">Bize ulaşın <FiArrowRight/></Link></div></section>
-    <PageCta title="Cihazınızı birlikte değerlendirelim." text="Arızayı kısaca anlatın; uygun servis süreci için sizi bilgilendirelim." href="/iletisim" label="Servis talebi oluştur" />
+    <PageCta title="Cihazınızı birlikte değerlendirelim." text="Arızayı kısaca anlatın; uygun servis süreci için sizi bilgilendirelim." href="/#iletisim" label="Servis talebi oluştur" />
   </main>;
 }
