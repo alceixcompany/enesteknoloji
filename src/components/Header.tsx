@@ -8,7 +8,6 @@ import BrandMark from './BrandMark';
 
 const links = [
   { href: '/', label: 'Ana Sayfa' },
-  { href: '/#telefonlar', label: 'Telefonlar' },
   { href: '/teknik-servis', label: 'Teknik Servis' },
   { href: '/#aksesuar', label: 'Aksesuar' },
   { href: '/hakkimizda', label: 'Hakkımızda' },
